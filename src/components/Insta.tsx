@@ -6,7 +6,7 @@ const InstagramBanner = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/11.png" // Replace with your background image path
+          src="/images/11.png"
           alt="Background"
           className="w-full h-full object-cover "
           width={1000}

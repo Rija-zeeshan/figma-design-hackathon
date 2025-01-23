@@ -71,10 +71,7 @@ const Cart = () => {
                     className="object-cover"
                   />
                 </div>
-                <div></div> {/* Empty cell for layout alignment */}
-                <div></div> {/* Empty cell for layout alignment */}
-                <div></div> {/* Empty cell for layout alignment */}
-                <div></div> {/* Empty cell for layout alignment */}
+
               </div>
             </div>
 

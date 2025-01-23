@@ -1,4 +1,5 @@
 import { Poppins } from "next/font/google";
+import { BiSmile } from "react-icons/bi";
 
 const poppins4 = Poppins({
   subsets: ["latin"],

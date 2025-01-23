@@ -1,7 +1,6 @@
-'use client';
-
 import Link from 'next/link';
 import Image from 'next/image';
+
 
 const Shop = () => {
   return (
@@ -230,22 +229,22 @@ const Shop = () => {
       {/* Pagination Section */}
       <section className="py-10 text-center">
         <div className="flex justify-center gap-4">
-          <Link href={`/shop?page=1`}>
+          <Link href="/shop?page=1">
             <div className="w-10 h-10 flex items-center justify-center border-2 rounded-md hover:bg-black hover:text-white">
               1
             </div>
           </Link>
-          <Link href={`/shop?page=2`}>
+          <Link href="/shop?page=2">
             <div className="w-10 h-10 flex items-center justify-center border-2 rounded-md hover:bg-black hover:text-white">
               2
             </div>
           </Link>
-          <Link href={`/shop?page=3`}>
+          <Link href="/shop?page=3">
             <div className="w-10 h-10 flex items-center justify-center border-2 rounded-md hover:bg-black hover:text-white">
               3
             </div>
           </Link>
-          <Link href={`/shop?page=next`}>
+          <Link href="/shop?page=next">
             <div className="w-10 h-10 flex items-center justify-center border-2 rounded-md hover:bg-black hover:text-white">
               Next
             </div>

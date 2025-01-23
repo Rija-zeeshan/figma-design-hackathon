@@ -12,7 +12,7 @@ const Checkout = () => {
           {/* Small Image in Center */}
           <div className="mb-4">
             <Image
-              src="/image/shop.png" 
+              src="/images/shopicon.png" 
               alt="Shop Icon"
               width={100}   
               height={100}  

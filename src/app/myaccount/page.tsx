@@ -12,7 +12,7 @@ const Account = () => {
        
           <div className="mb-4">
             <Image
-              src="/image/shopicon.png" 
+              src="/images/shopicon.png" 
               alt="Shop Icon"
               width={100}   
               height={100}  
